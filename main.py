@@ -29,10 +29,12 @@ def main() -> None:
 
         elif choice == 2:
             count += 1
+            print("Count increased!")
             print()
 
         elif choice == 3:
             count = 0
+            print("Cleared count!")
             print()
 
         elif choice == 0:
